@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ballet&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.fonts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.control {
+  margin-bottom: 20px;
+}
