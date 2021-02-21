@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.toast {
+  width: 300px;
+  border: 1px solid black;
+  left: -350px;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+  animation-name: ani;
+  animation-delay: 0.1s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+
+@keyframes ani {
+  0% {
+    left: -350px;
+  }
+  50% {
+  }
+  100% {
+    left: 10%;
+  }
+}
