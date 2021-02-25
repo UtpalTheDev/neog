@@ -1,0 +1,11 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  word-break: break-all;
+}
+body {
+  margin: 0;
+}
+button {
+  display: block;
+}
