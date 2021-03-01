@@ -1,0 +1,8 @@
+
+const read=require('readline-sync');
+
+let num=read.question("enter number\n");
+
+let checker=(num)=>{return(((num%2)===0) ? "even" : "odd")};
+//console.log(num%2);
+checker(num);
