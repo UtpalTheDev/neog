@@ -1,0 +1,24 @@
+
+
+const read=require('readline-sync');
+let arr=[];
+function array(){
+  for(let i=0;i<100;i++){
+    arr.push(i+1);
+  }
+
+return (arr.map(item=>{
+  if(item%3===0&&item%5===0){
+  return'FizzBuzz';
+  }
+  if(item%3===0){
+    return 'Fizz'
+  }
+  if(item%5===0){
+    return 'Buzz'
+  }
+  
+  return item;
+}))
+}
+array();
