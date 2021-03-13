@@ -1,0 +1,21 @@
+
+
+let creator=()=>{
+  let str="0,1";
+
+let num1=0;
+let num2=1;
+let turms=10;
+let temp;
+
+  for(let i=0;i<turms;i++){
+    
+    temp=num1+num2;
+    num1=num2;
+    num2=temp;
+    str=str.concat(","+temp)
+  }
+  return(str);
+}
+
+creator();
