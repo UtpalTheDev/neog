@@ -1,0 +1,14 @@
+
+const read=require('readline-sync');
+let num=read.question("enter number\n");
+num=Number(num);
+let primefinder=(num)=>{
+for(let i=2;i<Math.sqrt(num);i++){
+  if(num%i===0){
+    return "NonPrime";
+  }
+}
+  
+return "prime";
+}
+primefinder(num);
