@@ -1,0 +1,8 @@
+
+const read=require('readline-sync');
+let num=read.question("enter number\n");
+num=Number(num);
+let fact=(num)=>{return(num>0?
+                      (num)*fact(num-1):1
+                      )};
+fact(num);
