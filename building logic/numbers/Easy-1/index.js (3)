@@ -1,0 +1,7 @@
+
+const read=require('readline-sync');
+
+let number1=Number(read.question("enter first number"));
+let number2=Number(read.question("enter second number"));
+
+console.log(number1+number2);
