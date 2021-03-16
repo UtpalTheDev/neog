@@ -1,0 +1,19 @@
+
+const read=require('readline-sync');
+let day= read.question("Enter day\n");
+day=day.toLowerCase();
+let daychecker=(day)=>{
+
+let days={
+  sunday:"weekend",
+  monday:"weekdays",
+  tuesday:"weekdays",
+  wednesday:"weekdays",
+  thursday:"weekdays",
+  friday:"weekdays",
+  saturday:"weekend"
+}  
+//console.log("ll");
+return((days[day]!==undefined)?days[day]:"write valid day name")
+}
+daychecker(day);
