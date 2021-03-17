@@ -1,0 +1,8 @@
+
+const read=require('readline-sync');
+
+let P=Number(read.question("enter principal amount\n"));
+let T=Number(read.question("enter time\n"));
+let R=Number(read.question("enter rate\n"));
+
+console.log(`simple interest is ${(P*T*R)/100}`);
