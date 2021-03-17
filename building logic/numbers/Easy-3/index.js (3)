@@ -1,0 +1,6 @@
+
+const read=require('readline-sync');
+
+let v=Number(read.question("enter the velocity\n"));
+let m=Number(read.question("enter the mass\n"));
+console.log(`${0.5*m*v*v}`)
