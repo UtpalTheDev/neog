@@ -1,0 +1,7 @@
+
+const read=require('readline-sync');
+
+let Tf=Number(read.question("temperature in Farenheit\n"));
+
+let converter=(Tf)=>{return ` temp in celsius ${(Tf-32/1.8)} `};
+converter(Tf);
