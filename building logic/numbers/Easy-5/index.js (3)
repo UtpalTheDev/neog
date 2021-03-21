@@ -1,0 +1,8 @@
+
+const read=require('readline-sync');
+
+let side=Number(read.question("enter the siide value\n"));
+
+let calculate=(side)=>`Area- ${side*side}, Perimeter- ${4*side}, SurfaceArea- ${6*side*side}, Volume- ${side*side*side} `
+
+calculate(side);
