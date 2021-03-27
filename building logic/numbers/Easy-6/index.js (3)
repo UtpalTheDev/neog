@@ -1,0 +1,8 @@
+
+const read=require('readline-sync');
+
+let cp=Number(read.question("enter the cost price\n"))
+let sp=Number(read.question("enter the selling price\n"));
+
+let calc=(cp,sp)=>(sp-cp)>0?`profit ${sp-cp}`:`loss ${cp-sp}`
+calc(cp,sp);
