@@ -1,0 +1,11 @@
+
+const read=require('readline-sync');
+let num=Number(read.question("enter how many number of natural number sum you want\n "))
+let sum=(num)=>{
+  let total=0;
+  for(let i=1;i<=num;i++){
+      total=total+i;
+  }
+  return total
+}
+sum(num);
