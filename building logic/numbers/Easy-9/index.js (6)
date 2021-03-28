@@ -1,0 +1,7 @@
+
+const read=require("readline-sync");
+
+let str=read.question("enter string of number\n");
+
+let calc=(str)=>str.split("").reduce((total,num)=>total+Number(num),0)
+calc(str);

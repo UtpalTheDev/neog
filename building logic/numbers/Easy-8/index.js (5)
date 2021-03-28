@@ -1,0 +1,17 @@
+
+const read=require('readline-sync');
+
+let num=Number(read.question("enter number\n"))
+
+
+let calc=(num)=>{
+
+  for(let i=1;num>0;i++){
+    
+    if(i%2!==0){
+      console.log(i);
+      num--;
+    }
+  }
+}
+calc(num);
