@@ -1,0 +1,7 @@
+
+const read=require('readline-sync');
+
+let num=read.question("enter number\n");
+
+let reverse=(num)=>num.split("").reverse().join("");
+reverse(num);

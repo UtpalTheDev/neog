@@ -1,0 +1,15 @@
+
+const read=require("readline-sync");
+
+let str=read.question("enter string \n");
+let num=read.question("enter number \n");
+
+let leftrot=(str,num)=>{
+  strarr=str.split("");
+  for(let i=1;i<=num;i++){
+    strarr.push(strarr.shift())
+  }
+  return strarr.join("")
+}
+
+leftrot(str,num);
