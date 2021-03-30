@@ -1,0 +1,9 @@
+
+const read=require('readline-sync');
+
+let a=read.question('enter the number\n');
+let b=read.question('enter the  power value\n');
+
+let power=(a,b)=>Math.pow(a,b);
+
+power(a,b);
