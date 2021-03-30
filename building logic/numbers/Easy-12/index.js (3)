@@ -1,0 +1,13 @@
+
+const read=require("readline-sync");
+
+let num=Number(read.question("enter number\n"));
+let num1=parseInt(read.question("enter number\n"),8);
+
+console.log(binary(num));
+console.log(octal(num1));
+
+function binary(num){return ( num.toString(2))};
+
+
+function octal(num1){return parseInt(num1,10)};
