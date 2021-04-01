@@ -1,0 +1,10 @@
+
+const read= require('readline-sync');
+
+let str=read.question("write the sentence here\n");
+
+let wordfinder=(str)=>{
+  str=str.split(" ");
+  return str.length;
+}
+wordfinder(str);
