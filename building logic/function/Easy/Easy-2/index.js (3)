@@ -1,0 +1,9 @@
+
+const read=require('readline-sync');
+
+let length=read.question('enter the length\n');
+
+let area=(length)=>{
+  return(( 3*Math.sqrt(3)*(length*length))/2);
+}
+area(length);
