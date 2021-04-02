@@ -1,0 +1,11 @@
+const read=require('readline-sync');
+
+//let arr=read.question("enter number");
+
+
+
+let maxchecker=(...rest)=>{
+rest.sort(function(a,b){return a-b}).reverse();
+return(rest[0]);
+}
+maxchecker(1,5,8,4,98,-1,5,47);
