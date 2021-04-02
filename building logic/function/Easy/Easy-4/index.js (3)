@@ -1,0 +1,12 @@
+
+const read=require('readline-sync');
+
+//let arr=read.question("enter number");
+
+
+
+let minchecker=(...rest)=>{
+rest.sort(function(a,b){return a-b})
+return(rest[0]);
+}
+minchecker(1,5,8,4,0,-1,5,47);
