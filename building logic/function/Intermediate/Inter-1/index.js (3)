@@ -1,0 +1,10 @@
+
+const read=require('readline-sync');
+
+let arr=read.question("Enter array\n");
+arr=arr.split(",");
+
+let lengthfinder=(arr)=>{
+  return arr.length;
+}
+lengthfinder(arr);
