@@ -1,0 +1,18 @@
+
+const read=require('readline-sync');
+
+let arr=read.question("enter array\n");
+let number=read.question("enter number to change\n");
+let newnumber=read.question("enter the new number\n ");
+
+arr=arr.split(",");
+
+let replacer=(arr,number,newnumber)=>{
+  if(!arr.includes(number)){
+    return "not present";
+  }
+  arr=arr.map(item=>{if(item===number){return newnumber}return item});
+return(arr);
+  
+}
+replacer(arr,number,newnumber);
