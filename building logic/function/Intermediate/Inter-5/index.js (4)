@@ -1,0 +1,5 @@
+
+let charfinder=(str,pos)=>{
+  return str.charAt(pos)
+}
+charfinder("neogcamp",4);

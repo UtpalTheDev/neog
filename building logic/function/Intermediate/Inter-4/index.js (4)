@@ -1,0 +1,7 @@
+
+let merger=(a,b)=>{
+return [...a,...b]
+};
+let a=[1,2,3];
+let b=[5,6,7];
+merger(a,b);
