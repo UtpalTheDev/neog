@@ -1,0 +1,7 @@
+
+let encoder=(str,num)=>{
+  let strarr=str.split("");
+ strarr=strarr.map((item,index)=>str.charCodeAt(index)+num)
+ return strarr.reduce((total,number)=>total+String.fromCharCode(number),"")
+}
+encoder("neogcamp",2);
