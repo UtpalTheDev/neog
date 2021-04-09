@@ -1,0 +1,11 @@
+
+let sentenceCase=(str)=>{
+
+ let newstr=str.split(" ");
+ newstr=newstr.map(item=>{
+   item=item.charAt(0).toUpperCase()+item.slice(1);
+   return item
+ })
+ return newstr.join(" ")
+}
+sentenceCase("Hello nnn")
