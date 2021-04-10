@@ -1,0 +1,7 @@
+
+let reversing=(str)=>{
+ return str.split(" ").map(item=>
+   item.split("").reverse().join("")
+  ).join(" ")
+}
+reversing("hello man");

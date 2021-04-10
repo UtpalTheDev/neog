@@ -1,0 +1,7 @@
+
+const  read=require('readline-sync');
+
+let str=read.question("enter the string\n");
+
+let convert=(str)=>str.toUpperCase();
+convert(str);
