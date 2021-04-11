@@ -1,0 +1,8 @@
+
+const read=require("readline-sync");
+
+let str=read.question("enter string\n");
+
+let length=(str)=>str.length;
+
+length(str);

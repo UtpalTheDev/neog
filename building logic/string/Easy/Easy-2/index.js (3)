@@ -1,0 +1,10 @@
+
+
+const read=require("readline-sync");
+
+let str1=read.question("enter first string\n");
+let str2=read.question("enter second string\n");
+
+let merger=(str1,str2)=>str2.concat(str1);
+
+merger(str1,str2);
