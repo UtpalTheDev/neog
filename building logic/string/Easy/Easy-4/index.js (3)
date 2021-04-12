@@ -1,0 +1,7 @@
+const read=require("readline-sync");
+
+let str=read.question("enter string\n");
+
+let convert=(str)=>Number(str);
+
+convert(str);

@@ -1,0 +1,7 @@
+
+let str = "hello how are you";
+let regex = /[aeiou]/g; 
+let result = str.match(regex); 
+
+str=str.replace(regex,"");
+console.log(str);
