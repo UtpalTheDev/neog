@@ -1,0 +1,13 @@
+
+const read=require("readline-sync");
+
+let str1=read.question("enter first string\n");
+let str2=read.question("enter second string\n");
+let str3=read.question("enter third string\n");
+
+let checker=(...rest)=>{
+  rest.sort((a,b)=>a.length-b.length);
+  return `smallest string "${rest[0]}" longest string "${rest[rest.length-1]}"`;
+}
+
+checker(str1,str2,str3);
