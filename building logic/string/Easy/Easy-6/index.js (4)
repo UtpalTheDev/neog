@@ -1,0 +1,5 @@
+
+let str="batman@45";
+let regex=/(?=.*?[a-zA-Z]+)(?=.*?45)(?=.*?[#?!@$ %^&*-])/;
+let result=regex.test(str);
+console.log(result);
