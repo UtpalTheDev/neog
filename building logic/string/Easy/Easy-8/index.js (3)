@@ -1,0 +1,18 @@
+
+const read=require("readline-sync");
+
+let str=read.question("enter the string\n");
+
+let vowelregex=/[aeiou]/g;
+let consregex=/[^aeiou\s]/g;
+
+let calculator=(str)=>{
+
+  let vowelresult=str.match(vowelregex);
+  let consresult=str.match(consregex);
+
+  return `total vowel ${vowelresult.length}--> ${vowelresult} , total consonants ${consresult.length}--> ${consresult}`
+
+}
+
+calculator(str);
